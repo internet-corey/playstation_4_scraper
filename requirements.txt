@@ -1,0 +1,7 @@
+pyodbc==4.0.30
+PyAutoGUI==0.9.48
+pywin32==227
+ImageHash==4.1.0
+pandas==1.0.3
+Pillow==7.1.2
+win32gui==221.6
