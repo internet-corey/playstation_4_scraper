@@ -35,7 +35,6 @@ def hash_id_updater(retailer):
     # creates a list of tuples [(HashId, RetailerId, HashValue)] from
     # IDs csv file, filtered by Hash IDs greater than the latest_id from the db
     idfile = 'example/filepath/{retailer}_scraper/reference_directory/{retailer}_ids.csv'
-    )
     df = read_csv(idfile)
     records_list = list(df.to_records(index=False))
     hashlist = [i for i in records_list if i[0] > latest_id]
