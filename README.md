@@ -9,6 +9,9 @@ $ pip install -r requirements.txt
 ```
 
 ## Overview
+
+Written and updated from 2018 - 2020
+
 - Connects to a PS4 via the Remote Play app.
 - Saves image files of storefront using internal filename conventions.
 - Checks for new / already-active ads using image hashing comparisons.
